@@ -1,0 +1,28 @@
+#creating class and objects
+class animal:
+    
+    #class attribute
+    species='domestic animal'
+    
+    
+    #instance of object
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+        
+#instantiate the Parrot class      
+p1=animal("Cow",5)
+p2=animal("Dog",8)
+
+
+#access class attributes
+print(f"Cow is a {p1.__class__.species}")
+print(f"Dog is a{p2.__class__.species}")
+
+#access instance attributes
+print(f'{p1.name} is {p1.age} years old')
+print(f'{p2.name} is {p2.age} years old')
+
+
+
