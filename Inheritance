@@ -1,0 +1,46 @@
+
+#Inheritance
+
+
+class animals:
+    
+    def __init__(self):
+        print('dog is ready')
+        
+        
+        
+    def whoisthis(self):
+        print('This is dog')
+        
+        
+    def run(self):
+        print('dog can run fast')
+        
+        
+class wild(animals):
+    
+    def __init__(self):
+        super().__init__()
+        print('leopard is ready')
+        
+    def whoisthis(self):
+        print('This is leopard')   
+        
+        
+    def swim(self):
+        print('leopard can swim')
+        
+        
+        
+a1=wild()
+a1.whoisthis()
+a1.run()
+a1.swim()
+    
+    
+    
+    
+    
+
+
+
