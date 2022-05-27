@@ -1,0 +1,33 @@
+#creating Methods in python
+
+class bird:
+    
+    #instance attributes
+    
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+    # instance method
+        
+    def sing(self,song):
+        return f'{self.name} sings {song}'
+    
+    def dance(self):
+        return f'{self.name} is dancing'
+    
+        
+# instantiate the object
+b1=bird('sparrow',5)
+
+
+# call our instance methods
+
+print(b1.sing('Happily'))
+print(b1.dance())
+
+
+
+
+
+
