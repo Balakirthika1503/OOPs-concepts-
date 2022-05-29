@@ -1,0 +1,23 @@
+class price:
+    
+    def __init__(self):
+        self.max1=900
+        
+    def sell(self):
+        print(f'The amount {self.max1}')
+        
+    def set1(self,amount):
+        self.max1=amount
+        
+        
+p1=price()
+p1.sell()
+
+p1.max1=1000
+p1.sell()
+
+p1.set1(1000)
+p1.sell()
+        
+        
+        
